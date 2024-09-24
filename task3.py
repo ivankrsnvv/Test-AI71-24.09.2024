@@ -2,14 +2,14 @@ print('идёт дождь?')
 rainy = input()
 if rainy == 'да':
     print('сильный?')
-heavy = input()
+    heavy = input()
 if heavy == 'да':
     print('возьми зонт и одень куртку')
 elif heavy == 'нет':
     print('одень худи, зонт не бери')
 elif rainy == 'нет':
     print('тепло?')
-warm = input()
+    warm = input()
 if warm == 'да':
     print('оденься легко')
 elif warm == 'нет':
